@@ -1,0 +1,4 @@
+# Unhandled JavaScript Exception in HTML
+This repository demonstrates an uncommon HTML bug related to unhandled JavaScript exceptions within the HTML code. The bug involves a division by zero error that may not be handled gracefully, possibly halting the script or causing unexpected behavior. The solution provides an improved approach to handle potential errors and prevent script termination.
+## Bug Description
+The bug lies in the way a JavaScript calculation is handled within the HTML. A division by zero is attempted, which throws an error and halts the script's execution. This may cause unexpected behavior and may not be immediately apparent, since the rest of the HTML will load, but some portions may not be rendered or altered, as the script might be terminated.
